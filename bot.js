@@ -14,9 +14,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'Intro') {
+    if (message.content === 'Ping') {
 
-       message.reply('Welcome To ChasmRift Demons we hope you enjoy your stay!');
+       message.reply('Pong');
 
        }
 
